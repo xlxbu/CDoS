@@ -4,7 +4,7 @@ In this simulation, we demonstrate the feasibility of cascading DoS attacks in W
 
 node81 <- 80dB -> node80 <- 70dB -> node79 <- 80dB -> node78 <- 70dB -> ... node2 <- 80dB -> node1 <- 70dB -> node0
 
-Node (2i) transmits 1500 bytes UDP packets to node (2i+1) (0<=i<=40). The packet generation rate of nodes (except node80) is 8.125 pkts/s.  Node 80 is the attacker. By changing the packet generation rate of node 80, we are able to observe a sudden jump of the utilization at node 0, which is referred to as a phase transition. 
+Node (2*i) transmits 1500 bytes UDP packets to node (2*i+1) (0<=i<=40). The packet generation rate of nodes (except node80) is 8.125 pkts/s.  Node 80 is the attacker. By changing the packet generation rate of node 80, we are able to observe a sudden jump of the utilization at node 0, which is referred to as a phase transition. 
 
 Direction:
 
@@ -18,4 +18,6 @@ Direction:
 
 4. Run simulation
   $ ./waf --run scratch/CDoS-1Mbps-adhoc-UDP
+  
+5. Data statictics. The data will be recoded in the folder CDoS-1Mbps-adhoc-UDP-01. The file phase_transition_1Mbps_github.m provides an example to reproduce the result of fixed bit rate 
   
