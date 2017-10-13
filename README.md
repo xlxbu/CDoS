@@ -1,4 +1,4 @@
-# This repository provides the ns-3.22 simulation codes for casacding DoS attacks in Wi-Fi networks.
+# ns-3.22 simulation codes for casacding DoS attacks in Wi-Fi networks.
 
 In this simulation, we demonstrate the feasibility of cascading DoS attacks in Wi-Fi networks in ns-3 simulator. We build up an ad hoc network containing 41 pairs of nodes. The retry limit is 7 (default value in Wi-Fi). The topology of the network is as shown as follows.
 
