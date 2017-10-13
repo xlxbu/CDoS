@@ -19,5 +19,5 @@ Direction:
 4. Run simulation
   $ ./waf --run scratch/CDoS-1Mbps-adhoc-UDP
   
-5. Data statictics. The data will be recoded in the folder CDoS-1Mbps-adhoc-UDP-01. The file phase_transition_1Mbps_github.m provides an example to reproduce the result of fixed bit rate 
+5. Data statictics. The data will be recoded in the folder CDoS-1Mbps-adhoc-UDP-01. The file phase_transition_1Mbps_github.m provides an example to reproduce the result of fixed bit rate in the paper.
   
