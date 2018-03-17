@@ -211,10 +211,8 @@ int main (int argc, char **argv){
     firstnodeload = (double)0.02*i;
     for (size_t j = 13; j<14; ++j){
       restnodeload = (double)j/100;
-      for (size_t T = 1; T < 2; ++T){
-        std::cout << " first node = " << firstnodeload << " rest node = " << restnodeload << std::endl;
-        experiment (false, numofnode, durationofsimulation, firstnodeload, restnodeload);
-      }
+      std::cout << " first node = " << firstnodeload << " rest node = " << restnodeload << std::endl;
+      experiment (false, numofnode, durationofsimulation, firstnodeload, restnodeload);
     }
   }
   return 0;
